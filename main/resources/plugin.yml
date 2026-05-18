@@ -1,0 +1,18 @@
+name: ChatToDiscord
+version: '1.0.0'
+main: Mincratchattodiscord.java
+api-version: '1.21'
+description: Forwards Minecraft chat to a Discord webhook
+author: Mastercord
+website: https://github.com/yourname/chattodiscord
+
+commands:
+  ctd:
+    description: ChatToDiscord command
+    usage: /ctd [reload]
+    aliases: mctodiscord
+
+permissions:
+  chattodiscord.reload:
+    description: Allows reloading the ChatToDiscord config
+    default: op
